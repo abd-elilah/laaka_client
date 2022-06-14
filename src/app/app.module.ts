@@ -9,10 +9,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { SharedModule } from './shared/shared.module';
+import { CreanciersComponent } from './creanciers/creanciers.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    CreanciersComponent,
 
   ],
   imports: [
